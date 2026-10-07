@@ -1,0 +1,2 @@
+{"framework":null,"buildCommand":"npm run production && node scripts/vercel-static.mjs","outputDirectory":"vercel-public","functions":{"api/index.php":{"runtime":"vercel-php@0.6.2"}},"routes":[{"src":"/(?:index\\.php|.*\\.php)$","status":404},{"src":"/storage/(.*)","dest":"/api/index.php"},{"handle":"filesystem"},{"src":"/(.*)","dest":"/api/index.php"}]}
+
